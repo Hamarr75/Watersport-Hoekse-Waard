@@ -23,6 +23,10 @@ h1 {
     margin: 0;
 }
 
+.site-title p {
+    text-transform: uppercase;
+}
+
 header p {
     margin: 0;
 }
