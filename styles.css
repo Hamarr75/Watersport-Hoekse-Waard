@@ -79,17 +79,6 @@ footer {
         flex-direction: row;               
     }    
 }
-/*
-Voor als plaatje er moet komen
-.site-title-main {
-    order: 2;
-    margin-left: 1em;
-}
-
-.site-title-secondary {
-    order: 1;
-}
-*/
 
 .site-title img {
     width: 20%;    
@@ -122,4 +111,43 @@ nav li {
     margin: 0.5em 0;
     text-align: center;
 }
+.article-recent-main {
+    order: 2;
+}
+
+.article-recent-secondary {
+    order: 2;
+}
+
+.article-recent-secondary p{
+    margin: 1;
+}
+
+.article-recent-secondary img{
+    width: 25%;
+}
+
+.article-featured {
+    border-bottom: #707070 1px solid;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.article-start {           
+    padding-bottom: 2em;
+    margin-bottom: 2em;    
+}
+
+.article-start img {    
+    width: 48%;
+    height: 48%;
+    margin: 2em 0;
+}
+
+.container-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 
