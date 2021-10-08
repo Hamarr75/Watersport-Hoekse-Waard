@@ -138,16 +138,25 @@ nav li {
     margin-bottom: 2em;    
 }
 
-.article-start img {    
-    width: 48%;
-    height: 48%;
+.article-start img {   
     margin: 2em 0;
 }
 
 .container-img {
     display: flex;
+    flex-direction: column;   
+}
+
+@media screen and (min-width: 530px) {
+    .container-img {
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-
+.article-start img {    
+    width: 48%;
+    height: 48%;
+    margin: 2em 0;
+}
+}
