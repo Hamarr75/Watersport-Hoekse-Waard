@@ -54,7 +54,7 @@ ion-icon {
 .container {    
     width: 90%;
     max-width: 1080px;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 
 .container-flex {
@@ -65,9 +65,11 @@ ion-icon {
 
 
 header {
+    position: sticky;
+    top: 0;
     text-align: center;
     padding: 2em 0;
-    background: #8ecae6;    
+    background: hsl(199, 64%, 73%, 0.98);      
 }
 
 footer {    
@@ -116,26 +118,15 @@ nav li {
     margin: 0.5em 0;
     text-align: center;
 }
-.article-recent-main {
-    order: 2;
-}
-
-.article-recent-secondary {
-    order: 2;
-}
-
-.article-recent-secondary p{
-    margin: 1;
-}
-
-.article-recent-secondary img{
-    width: 25%;
-}
 
 .article-featured {
     border-bottom: #707070 1px solid;
     padding-bottom: 2em;
     margin-bottom: 2em;
+}
+
+.container .article-featured:last-child {
+    border: none;
 }
 
 .article-start {           
