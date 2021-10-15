@@ -39,7 +39,19 @@ a {
 a:hover,
 a:focus {
     color: #fb8500;
-    border-bottom: 2px solid #fb8500;
+    border-bottom: 1px solid #fb8500;
+    padding-bottom: .25em;
+}
+
+.current-page {
+    border-bottom: 1px solid #023047;
+    padding-bottom: .25em;
+}
+
+.current-page:hover,
+.current-page:focus {
+    color: #023047;
+    border-bottom: 1px solid #023047;
     padding-bottom: .25em;
 }
 
