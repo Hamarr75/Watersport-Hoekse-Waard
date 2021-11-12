@@ -10,7 +10,8 @@
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
-    color: #023047;    
+    color: #023047;
+    line-height: 1.5;  
 }
 
 img {
@@ -25,10 +26,16 @@ h1 {
 
 .site-title p {
     text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: .8rem;
 }
 
 header p {
     margin: 0;
+}
+
+nav a {    
+    letter-spacing: 1px;
 }
 
 a {
@@ -155,7 +162,7 @@ nav li {
 
 .container-img {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;      
 }
 
 @media screen and (min-width: 530px) {
