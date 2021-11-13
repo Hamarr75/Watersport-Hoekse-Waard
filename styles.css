@@ -62,6 +62,10 @@ a:focus {
     padding-bottom: .25em;
 }
 
+.article-info {
+    font-weight: 900;
+}
+
 ion-icon {
     font-size: 1em;
     margin-right: .5em;   
